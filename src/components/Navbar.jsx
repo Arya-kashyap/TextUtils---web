@@ -8,7 +8,7 @@ function Navbar({ mode, toggleBtn }) {
                     <div className='flex'>
                          <h1 className='text-3xl'>TextUtils</h1>
                     </div>
-                    <input type="checkbox" defaultChecked className={`toggle ${mode ? "bg-white" : "bg-zinc-800"}`} onClick={toggleBtn} />
+                    <input type="checkbox" defaultChecked className={`toggle ${mode ? "bg-white" : "bg-zinc-800 text-white"}`} onClick={toggleBtn} />
                </div>
           </div>
      )

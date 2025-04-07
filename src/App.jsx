@@ -11,7 +11,7 @@ function App() {
   }
 
   return (
-    <div className={`w-full h-screen ${darkMode ? "bg-neutral-900" : "bg-white"}`}>
+    <div className={`w-full h-screen ${darkMode ? "bg-stone-900" : "bg-white"}`}>
       <Navbar mode={darkMode} toggleBtn={toggleBtn} />
       <Home mode={darkMode} />
     </div>

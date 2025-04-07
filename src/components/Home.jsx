@@ -19,8 +19,8 @@ function Home({ mode }) {
      }
 
      return (
-          <div>
-               <div className={`flex flex-col m-8 md:m-12 ${mode ? "bg-neutral-900" : "bg-white"}`}>
+          <div className={`${mode ? "bg-stone-900" : "bg-white"}`}>
+               <div className={`flex flex-col m-8 md:m-12 ${mode ? "bg-stone-900" : "bg-white"}`}>
                     <h1 className={`text-3xl ${mode ? "text-gray-300 " : " text-black"}`}>Enter the text to analyze bellow</h1>
                     <div className=' mt-3 '>
                          <textarea className={`w-full h-80 outline-none ${mode ? "bg-zinc-700  text-gray-300 " : "bg-gray-300 text-black"} rounded-lg form-control resize-none p-2 text-2xl`} value={content} onChange={handleCount} ref={inputRef} placeholder='Writes your notes'></textarea>
